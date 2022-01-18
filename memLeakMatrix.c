@@ -1,5 +1,23 @@
 #include <stdlib.h>
 
+//ls-la
+//which
+//cat
+//pwd
+//ps (show procesess)
+//echo "something" (it will print something)
+//myvar = "something" (creates a new variable with something, later we can call echo with $myvar)
+//wc help (to see all the comands avilable)
+//rm src (removes a file)
+//to execute do ./nameofexecutable
+//chmod u+x src (u is user, x permission, src source file)
+
+
+
+
+
+
+
 int** mat;
 
 int** createMatrix( int n, int m) {
