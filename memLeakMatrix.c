@@ -1,22 +1,19 @@
 #include <stdlib.h>
 
-//ls-la
-//which
-//cat
+//ls-la (list all the files)
+//which ls (folder information)
+//cat main.c (print file content)
 //pwd
+//sleep 5 & (wait 5 seconds, the & character tells the shell to execute it concurrently and return immediately to shell console waiting for keyboard input)
 //ps (show procesess)
 //echo "something" (it will print something)
 //myvar = "something" (creates a new variable with something, later we can call echo with $myvar)
 //wc help (to see all the comands avilable)
 //rm src (removes a file)
 //to execute do ./nameofexecutable
-//chmod u+x src (u is user, x permission, src source file)
-
-
-
-
-
-
+//wc −l main.c (counts lines in arg or standardinput)
+//chmod u+x src (u is user, permission (r: read , w: write, x: execute), src source file)
+//to compile it is: gcc filename.c -o compilerName Then write ./compilerName
 
 int** mat;
 

@@ -8,5 +8,6 @@ int main() {
     int n = 5;
     vec = malloc( n * sizeof(int) );
     for(i=0;i<=n;i++) vec[i] = i;
+    printf("done");
 	return 0;
 }
